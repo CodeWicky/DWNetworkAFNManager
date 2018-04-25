@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'DWNetworkAFNManager'
-s.version = '1.0.0'
+s.version = '1.0.1'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.summary = '这是一个AFN3.0的轻量封装，可实现基本数据请求且不会造成内存泄漏。This is an AFN3.0 lightweight package that implements basic data requests without causing memory leaks.'
 s.homepage = 'https://github.com/CodeWicky/DWNetworkAFNManager'
