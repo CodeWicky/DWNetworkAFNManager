@@ -13,6 +13,12 @@
  基于AFN3.0 封装的请求类。
  解决AFN的内存泄漏且不采用单例模式（考虑到每个请求的请求头应该具有差异性，故不考虑单例模式）
  解决PNG上传痛点（直接以文件形式加载PNG文件至NSData后上传至服务端，图片无法读取）
+ 
+ version 1.0.0
+ 提供非单例模式，解决PNG上传
+ 
+ versin 1.0.1
+ 去除超时属性，改为使用requestSerializer中的timeoutInterval控制，保持与AFN行为一致
  */
 
 #import <AFNetworking/AFNetworking.h>
@@ -52,8 +58,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DWNetworkAFNManager : AFURLSessionManager
 
 @property (nonatomic ,strong) AFHTTPRequestSerializer * requestSerializer;
-
-@property (nonatomic ,assign) NSTimeInterval timeoutInterval;
 
 @property (nonatomic ,copy) NSString * userName;
 

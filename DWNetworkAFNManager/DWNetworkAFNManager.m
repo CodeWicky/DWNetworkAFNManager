@@ -622,8 +622,6 @@ static NSDictionary * fileType4ExtensionMap() {
         return nil;
     }
     
-    ///超时
-    request.timeoutInterval = self.timeoutInterval;
     ///登录
     if (self.userName.length && self.password.length) {
         NSData *basicAuthCredentials = [[NSString stringWithFormat:@"%@:%@", self.userName, self.password] dataUsingEncoding:NSUTF8StringEncoding];
