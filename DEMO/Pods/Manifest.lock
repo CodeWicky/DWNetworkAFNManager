@@ -14,17 +14,25 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - DWNetworkAFNManager (1.0.1):
+    - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
   - AFNetworking
+  - DWNetworkAFNManager (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
 
+EXTERNAL SOURCES:
+  DWNetworkAFNManager:
+    :path: "../"
+
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  DWNetworkAFNManager: b3b748f4acf562eca5af47be1dd17c9a23170525
 
-PODFILE CHECKSUM: 4dc4168f51811a99b306b341054237a7d55af0a5
+PODFILE CHECKSUM: 4255d3a5fd1fa76e3b4c1f1cfad1a83213bc7c0c
 
 COCOAPODS: 1.7.2

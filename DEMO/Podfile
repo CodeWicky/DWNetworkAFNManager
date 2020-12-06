@@ -1,4 +1,4 @@
-target 'DWNetworkAFNManager' do
-#pod 'DWNetworkAFNManager' ,:path => '../'
+target 'DEMO' do
+pod 'DWNetworkAFNManager' ,:path => '../'
 pod 'AFNetworking'
 end

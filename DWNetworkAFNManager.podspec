@@ -9,6 +9,9 @@ s.source = { :git => 'https://github.com/CodeWicky/DWNetworkAFNManager.git', :ta
 s.requires_arc = true
 s.ios.deployment_target = '9.0'
 s.source_files = 'DWNetworkAFNManager/**/{DWNetworkAFNManager}.{h,m}'
+
+s.ios.pod_target_xcconfig = {'PRODUCT_BUNDLE_IDENTIFIER' => 'com.Wicky.DWNetworkAFNManager'}
+
 s.frameworks = 'UIKit'
 
 s.dependency 'AFNetworking', '~> 4.0.1'

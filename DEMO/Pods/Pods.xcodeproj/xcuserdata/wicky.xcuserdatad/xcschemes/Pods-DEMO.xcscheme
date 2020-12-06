@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B8631E5F77ABC82C25BBCCD3B04FA67"
-               BuildableName = "libPods-DWNetworkAFNManager.a"
-               BlueprintName = "Pods-DWNetworkAFNManager"
+               BlueprintIdentifier = "24B750B7F34B1A493C5D2039FA09ECD9"
+               BuildableName = "libPods-DEMO.a"
+               BlueprintName = "Pods-DEMO"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

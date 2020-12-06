@@ -1,17 +1,17 @@
 //
-//  DWNetworkAFNManagerTests.m
-//  DWNetworkAFNManagerTests
+//  DEMOTests.m
+//  DEMOTests
 //
 //  Created by Wicky on 2020/12/6.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface DWNetworkAFNManagerTests : XCTestCase
+@interface DEMOTests : XCTestCase
 
 @end
 
-@implementation DWNetworkAFNManagerTests
+@implementation DEMOTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
