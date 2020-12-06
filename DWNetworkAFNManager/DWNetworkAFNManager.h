@@ -17,8 +17,11 @@
  version 1.0.0
  提供非单例模式，解决PNG上传
  
- versin 1.0.1
+ version 1.0.1
  去除超时属性，改为使用requestSerializer中的timeoutInterval控制，保持与AFN行为一致
+ 
+ version 1.0.2
+ 升级AFN核心至4.0以上
  */
 
 #import <AFNetworking/AFNetworking.h>
