@@ -2,16 +2,14 @@
 //  AppDelegate.h
 //  DWNetworkAFNManager
 //
-//  Created by Wicky on 2018/3/26.
-//  Copyright © 2018年 Wicky. All rights reserved.
+//  Created by Wicky on 2020/12/6.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic ,strong) UIWindow * window;
 
 @end
 

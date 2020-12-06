@@ -2,8 +2,7 @@
 //  DWNetworkAFNManagerTests.m
 //  DWNetworkAFNManagerTests
 //
-//  Created by Wicky on 2018/3/26.
-//  Copyright © 2018年 Wicky. All rights reserved.
+//  Created by Wicky on 2020/12/6.
 //
 
 #import <XCTest/XCTest.h>
@@ -15,13 +14,11 @@
 @implementation DWNetworkAFNManagerTests
 
 - (void)setUp {
-    [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
 }
 
 - (void)testExample {

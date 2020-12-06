@@ -1,3 +1,4 @@
 target 'DWNetworkAFNManager' do
-pod 'AFNetworking', '~> 3.2.0'
+#pod 'DWNetworkAFNManager' ,:path => '../'
+pod 'AFNetworking'
 end

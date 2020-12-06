@@ -3,80 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		214ACED520690685007A41A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 214ACED420690684007A41A4 /* AppDelegate.m */; };
-		214ACED820690685007A41A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214ACED720690685007A41A4 /* ViewController.m */; };
-		214ACEDB20690685007A41A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214ACED920690685007A41A4 /* Main.storyboard */; };
-		214ACEDD20690685007A41A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214ACEDC20690685007A41A4 /* Assets.xcassets */; };
-		214ACEE020690685007A41A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214ACEDE20690685007A41A4 /* LaunchScreen.storyboard */; };
-		214ACEE320690685007A41A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 214ACEE220690685007A41A4 /* main.m */; };
-		214ACEED20690685007A41A4 /* DWNetworkAFNManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214ACEEC20690685007A41A4 /* DWNetworkAFNManagerTests.m */; };
-		214ACEF820690685007A41A4 /* DWNetworkAFNManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214ACEF720690685007A41A4 /* DWNetworkAFNManagerUITests.m */; };
-		214ACF07206907BB007A41A4 /* DWNetworkAFNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 214ACF05206907BB007A41A4 /* DWNetworkAFNManager.m */; };
-		7006A87577F4C013E7B4862A /* libPods-DWNetworkAFNManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4E1CDD268385916E5BC962 /* libPods-DWNetworkAFNManager.a */; };
+		99281A5887FAAA89558673BE /* libPods-DWNetworkAFNManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EAC746B679F8CF79D109E2 /* libPods-DWNetworkAFNManager.a */; };
+		9BF2225E257CE4AC000BB01B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2225D257CE4AC000BB01B /* AppDelegate.m */; };
+		9BF22264257CE4AC000BB01B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF22263257CE4AC000BB01B /* ViewController.m */; };
+		9BF22267257CE4AC000BB01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF22265257CE4AC000BB01B /* Main.storyboard */; };
+		9BF22269257CE4AF000BB01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF22268257CE4AF000BB01B /* Assets.xcassets */; };
+		9BF2226C257CE4AF000BB01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF2226A257CE4AF000BB01B /* LaunchScreen.storyboard */; };
+		9BF2226F257CE4AF000BB01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2226E257CE4AF000BB01B /* main.m */; };
+		9BF22279257CE4AF000BB01B /* DWNetworkAFNManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF22278257CE4AF000BB01B /* DWNetworkAFNManagerTests.m */; };
+		9BF22284257CE4AF000BB01B /* DWNetworkAFNManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF22283257CE4AF000BB01B /* DWNetworkAFNManagerUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		214ACEE920690685007A41A4 /* PBXContainerItemProxy */ = {
+		9BF22275257CE4AF000BB01B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 214ACEC820690684007A41A4 /* Project object */;
+			containerPortal = 9BF22251257CE4AC000BB01B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 214ACECF20690684007A41A4;
+			remoteGlobalIDString = 9BF22258257CE4AC000BB01B;
 			remoteInfo = DWNetworkAFNManager;
 		};
-		214ACEF420690685007A41A4 /* PBXContainerItemProxy */ = {
+		9BF22280257CE4AF000BB01B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 214ACEC820690684007A41A4 /* Project object */;
+			containerPortal = 9BF22251257CE4AC000BB01B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 214ACECF20690684007A41A4;
+			remoteGlobalIDString = 9BF22258257CE4AC000BB01B;
 			remoteInfo = DWNetworkAFNManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		214ACED020690684007A41A4 /* DWNetworkAFNManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWNetworkAFNManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		214ACED320690684007A41A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		214ACED420690684007A41A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		214ACED620690685007A41A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		214ACED720690685007A41A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		214ACEDA20690685007A41A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		214ACEDC20690685007A41A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		214ACEDF20690685007A41A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		214ACEE120690685007A41A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		214ACEE220690685007A41A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		214ACEE820690685007A41A4 /* DWNetworkAFNManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWNetworkAFNManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		214ACEEC20690685007A41A4 /* DWNetworkAFNManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWNetworkAFNManagerTests.m; sourceTree = "<group>"; };
-		214ACEEE20690685007A41A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		214ACEF320690685007A41A4 /* DWNetworkAFNManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWNetworkAFNManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		214ACEF720690685007A41A4 /* DWNetworkAFNManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWNetworkAFNManagerUITests.m; sourceTree = "<group>"; };
-		214ACEF920690685007A41A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		214ACF05206907BB007A41A4 /* DWNetworkAFNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWNetworkAFNManager.m; path = ../../DWNetworkAFNManager/DWNetworkAFNManager.m; sourceTree = "<group>"; };
-		214ACF06206907BB007A41A4 /* DWNetworkAFNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWNetworkAFNManager.h; path = ../../DWNetworkAFNManager/DWNetworkAFNManager.h; sourceTree = "<group>"; };
-		3D4E1CDD268385916E5BC962 /* libPods-DWNetworkAFNManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DWNetworkAFNManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		878CF02311FAC9AE28297132 /* Pods-DWNetworkAFNManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWNetworkAFNManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DWNetworkAFNManager/Pods-DWNetworkAFNManager.release.xcconfig"; sourceTree = "<group>"; };
-		FF470186C291900E9DF6E3A0 /* Pods-DWNetworkAFNManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWNetworkAFNManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DWNetworkAFNManager/Pods-DWNetworkAFNManager.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE6408E7E1A30B7A2690146 /* Pods-DWNetworkAFNManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWNetworkAFNManager.release.xcconfig"; path = "Target Support Files/Pods-DWNetworkAFNManager/Pods-DWNetworkAFNManager.release.xcconfig"; sourceTree = "<group>"; };
+		9BF22259257CE4AC000BB01B /* DWNetworkAFNManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWNetworkAFNManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF2225C257CE4AC000BB01B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BF2225D257CE4AC000BB01B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BF22262257CE4AC000BB01B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BF22263257CE4AC000BB01B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BF22266257CE4AC000BB01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BF22268257CE4AF000BB01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BF2226B257CE4AF000BB01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BF2226D257CE4AF000BB01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF2226E257CE4AF000BB01B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BF22274257CE4AF000BB01B /* DWNetworkAFNManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWNetworkAFNManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF22278257CE4AF000BB01B /* DWNetworkAFNManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWNetworkAFNManagerTests.m; sourceTree = "<group>"; };
+		9BF2227A257CE4AF000BB01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF2227F257CE4AF000BB01B /* DWNetworkAFNManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWNetworkAFNManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF22283257CE4AF000BB01B /* DWNetworkAFNManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWNetworkAFNManagerUITests.m; sourceTree = "<group>"; };
+		9BF22285257CE4AF000BB01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91F37058C1F4F98B228DD5C /* Pods-DWNetworkAFNManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWNetworkAFNManager.debug.xcconfig"; path = "Target Support Files/Pods-DWNetworkAFNManager/Pods-DWNetworkAFNManager.debug.xcconfig"; sourceTree = "<group>"; };
+		D3EAC746B679F8CF79D109E2 /* libPods-DWNetworkAFNManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DWNetworkAFNManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		214ACECD20690684007A41A4 /* Frameworks */ = {
+		9BF22256257CE4AC000BB01B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7006A87577F4C013E7B4862A /* libPods-DWNetworkAFNManager.a in Frameworks */,
+				99281A5887FAAA89558673BE /* libPods-DWNetworkAFNManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		214ACEE520690685007A41A4 /* Frameworks */ = {
+		9BF22271257CE4AF000BB01B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		214ACEF020690685007A41A4 /* Frameworks */ = {
+		9BF2227C257CE4AF000BB01B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,94 +83,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		214ACEC720690684007A41A4 = {
+		021B6533E21E02220A59869F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				214ACED220690684007A41A4 /* DWNetworkAFNManager */,
-				214ACEEB20690685007A41A4 /* DWNetworkAFNManagerTests */,
-				214ACEF620690685007A41A4 /* DWNetworkAFNManagerUITests */,
-				214ACED120690684007A41A4 /* Products */,
-				E2C907E957D005117CEA8D7C /* Pods */,
-				59B23F7CC8662441ED279579 /* Frameworks */,
+				A91F37058C1F4F98B228DD5C /* Pods-DWNetworkAFNManager.debug.xcconfig */,
+				7DE6408E7E1A30B7A2690146 /* Pods-DWNetworkAFNManager.release.xcconfig */,
 			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		214ACED120690684007A41A4 /* Products */ = {
+		8C9FEA18264AB763CC66344A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				214ACED020690684007A41A4 /* DWNetworkAFNManager.app */,
-				214ACEE820690685007A41A4 /* DWNetworkAFNManagerTests.xctest */,
-				214ACEF320690685007A41A4 /* DWNetworkAFNManagerUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		214ACED220690684007A41A4 /* DWNetworkAFNManager */ = {
-			isa = PBXGroup;
-			children = (
-				214ACED320690684007A41A4 /* AppDelegate.h */,
-				214ACED420690684007A41A4 /* AppDelegate.m */,
-				214ACED620690685007A41A4 /* ViewController.h */,
-				214ACED720690685007A41A4 /* ViewController.m */,
-				214ACF06206907BB007A41A4 /* DWNetworkAFNManager.h */,
-				214ACF05206907BB007A41A4 /* DWNetworkAFNManager.m */,
-				214ACED920690685007A41A4 /* Main.storyboard */,
-				214ACEDC20690685007A41A4 /* Assets.xcassets */,
-				214ACEDE20690685007A41A4 /* LaunchScreen.storyboard */,
-				214ACEE120690685007A41A4 /* Info.plist */,
-				214ACEE220690685007A41A4 /* main.m */,
-			);
-			path = DWNetworkAFNManager;
-			sourceTree = "<group>";
-		};
-		214ACEEB20690685007A41A4 /* DWNetworkAFNManagerTests */ = {
-			isa = PBXGroup;
-			children = (
-				214ACEEC20690685007A41A4 /* DWNetworkAFNManagerTests.m */,
-				214ACEEE20690685007A41A4 /* Info.plist */,
-			);
-			path = DWNetworkAFNManagerTests;
-			sourceTree = "<group>";
-		};
-		214ACEF620690685007A41A4 /* DWNetworkAFNManagerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				214ACEF720690685007A41A4 /* DWNetworkAFNManagerUITests.m */,
-				214ACEF920690685007A41A4 /* Info.plist */,
-			);
-			path = DWNetworkAFNManagerUITests;
-			sourceTree = "<group>";
-		};
-		59B23F7CC8662441ED279579 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E1CDD268385916E5BC962 /* libPods-DWNetworkAFNManager.a */,
+				D3EAC746B679F8CF79D109E2 /* libPods-DWNetworkAFNManager.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2C907E957D005117CEA8D7C /* Pods */ = {
+		9BF22250257CE4AC000BB01B = {
 			isa = PBXGroup;
 			children = (
-				FF470186C291900E9DF6E3A0 /* Pods-DWNetworkAFNManager.debug.xcconfig */,
-				878CF02311FAC9AE28297132 /* Pods-DWNetworkAFNManager.release.xcconfig */,
+				9BF2225B257CE4AC000BB01B /* DWNetworkAFNManager */,
+				9BF22277257CE4AF000BB01B /* DWNetworkAFNManagerTests */,
+				9BF22282257CE4AF000BB01B /* DWNetworkAFNManagerUITests */,
+				9BF2225A257CE4AC000BB01B /* Products */,
+				021B6533E21E02220A59869F /* Pods */,
+				8C9FEA18264AB763CC66344A /* Frameworks */,
 			);
-			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BF2225A257CE4AC000BB01B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF22259257CE4AC000BB01B /* DWNetworkAFNManager.app */,
+				9BF22274257CE4AF000BB01B /* DWNetworkAFNManagerTests.xctest */,
+				9BF2227F257CE4AF000BB01B /* DWNetworkAFNManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF2225B257CE4AC000BB01B /* DWNetworkAFNManager */ = {
+			isa = PBXGroup;
+			children = (
+				9BF2225C257CE4AC000BB01B /* AppDelegate.h */,
+				9BF2225D257CE4AC000BB01B /* AppDelegate.m */,
+				9BF22262257CE4AC000BB01B /* ViewController.h */,
+				9BF22263257CE4AC000BB01B /* ViewController.m */,
+				9BF22265257CE4AC000BB01B /* Main.storyboard */,
+				9BF22268257CE4AF000BB01B /* Assets.xcassets */,
+				9BF2226A257CE4AF000BB01B /* LaunchScreen.storyboard */,
+				9BF2226D257CE4AF000BB01B /* Info.plist */,
+				9BF2226E257CE4AF000BB01B /* main.m */,
+			);
+			path = DWNetworkAFNManager;
+			sourceTree = "<group>";
+		};
+		9BF22277257CE4AF000BB01B /* DWNetworkAFNManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF22278257CE4AF000BB01B /* DWNetworkAFNManagerTests.m */,
+				9BF2227A257CE4AF000BB01B /* Info.plist */,
+			);
+			path = DWNetworkAFNManagerTests;
+			sourceTree = "<group>";
+		};
+		9BF22282257CE4AF000BB01B /* DWNetworkAFNManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF22283257CE4AF000BB01B /* DWNetworkAFNManagerUITests.m */,
+				9BF22285257CE4AF000BB01B /* Info.plist */,
+			);
+			path = DWNetworkAFNManagerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		214ACECF20690684007A41A4 /* DWNetworkAFNManager */ = {
+		9BF22258257CE4AC000BB01B /* DWNetworkAFNManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 214ACEFC20690685007A41A4 /* Build configuration list for PBXNativeTarget "DWNetworkAFNManager" */;
+			buildConfigurationList = 9BF22288257CE4AF000BB01B /* Build configuration list for PBXNativeTarget "DWNetworkAFNManager" */;
 			buildPhases = (
-				D369ACB29552B2DBD1B8E75C /* [CP] Check Pods Manifest.lock */,
-				214ACECC20690684007A41A4 /* Sources */,
-				214ACECD20690684007A41A4 /* Frameworks */,
-				214ACECE20690684007A41A4 /* Resources */,
-				5CA9EBA40EF2E298B6EB1B79 /* [CP] Embed Pods Frameworks */,
-				E9BF285505582C0AF74DC01F /* [CP] Copy Pods Resources */,
+				DA41C1A48BBCE06EB45F2E57 /* [CP] Check Pods Manifest.lock */,
+				9BF22255257CE4AC000BB01B /* Sources */,
+				9BF22256257CE4AC000BB01B /* Frameworks */,
+				9BF22257257CE4AC000BB01B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -181,109 +175,105 @@
 			);
 			name = DWNetworkAFNManager;
 			productName = DWNetworkAFNManager;
-			productReference = 214ACED020690684007A41A4 /* DWNetworkAFNManager.app */;
+			productReference = 9BF22259257CE4AC000BB01B /* DWNetworkAFNManager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		214ACEE720690685007A41A4 /* DWNetworkAFNManagerTests */ = {
+		9BF22273257CE4AF000BB01B /* DWNetworkAFNManagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 214ACEFF20690685007A41A4 /* Build configuration list for PBXNativeTarget "DWNetworkAFNManagerTests" */;
+			buildConfigurationList = 9BF2228B257CE4AF000BB01B /* Build configuration list for PBXNativeTarget "DWNetworkAFNManagerTests" */;
 			buildPhases = (
-				214ACEE420690685007A41A4 /* Sources */,
-				214ACEE520690685007A41A4 /* Frameworks */,
-				214ACEE620690685007A41A4 /* Resources */,
+				9BF22270257CE4AF000BB01B /* Sources */,
+				9BF22271257CE4AF000BB01B /* Frameworks */,
+				9BF22272257CE4AF000BB01B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				214ACEEA20690685007A41A4 /* PBXTargetDependency */,
+				9BF22276257CE4AF000BB01B /* PBXTargetDependency */,
 			);
 			name = DWNetworkAFNManagerTests;
 			productName = DWNetworkAFNManagerTests;
-			productReference = 214ACEE820690685007A41A4 /* DWNetworkAFNManagerTests.xctest */;
+			productReference = 9BF22274257CE4AF000BB01B /* DWNetworkAFNManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		214ACEF220690685007A41A4 /* DWNetworkAFNManagerUITests */ = {
+		9BF2227E257CE4AF000BB01B /* DWNetworkAFNManagerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 214ACF0220690685007A41A4 /* Build configuration list for PBXNativeTarget "DWNetworkAFNManagerUITests" */;
+			buildConfigurationList = 9BF2228E257CE4AF000BB01B /* Build configuration list for PBXNativeTarget "DWNetworkAFNManagerUITests" */;
 			buildPhases = (
-				214ACEEF20690685007A41A4 /* Sources */,
-				214ACEF020690685007A41A4 /* Frameworks */,
-				214ACEF120690685007A41A4 /* Resources */,
+				9BF2227B257CE4AF000BB01B /* Sources */,
+				9BF2227C257CE4AF000BB01B /* Frameworks */,
+				9BF2227D257CE4AF000BB01B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				214ACEF520690685007A41A4 /* PBXTargetDependency */,
+				9BF22281257CE4AF000BB01B /* PBXTargetDependency */,
 			);
 			name = DWNetworkAFNManagerUITests;
 			productName = DWNetworkAFNManagerUITests;
-			productReference = 214ACEF320690685007A41A4 /* DWNetworkAFNManagerUITests.xctest */;
+			productReference = 9BF2227F257CE4AF000BB01B /* DWNetworkAFNManagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		214ACEC820690684007A41A4 /* Project object */ = {
+		9BF22251257CE4AC000BB01B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = Wicky;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					214ACECF20690684007A41A4 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+					9BF22258257CE4AC000BB01B = {
+						CreatedOnToolsVersion = 12.2;
 					};
-					214ACEE720690685007A41A4 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 214ACECF20690684007A41A4;
+					9BF22273257CE4AF000BB01B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9BF22258257CE4AC000BB01B;
 					};
-					214ACEF220690685007A41A4 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 214ACECF20690684007A41A4;
+					9BF2227E257CE4AF000BB01B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9BF22258257CE4AC000BB01B;
 					};
 				};
 			};
-			buildConfigurationList = 214ACECB20690684007A41A4 /* Build configuration list for PBXProject "DWNetworkAFNManager" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = 9BF22254257CE4AC000BB01B /* Build configuration list for PBXProject "DWNetworkAFNManager" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 214ACEC720690684007A41A4;
-			productRefGroup = 214ACED120690684007A41A4 /* Products */;
+			mainGroup = 9BF22250257CE4AC000BB01B;
+			productRefGroup = 9BF2225A257CE4AC000BB01B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				214ACECF20690684007A41A4 /* DWNetworkAFNManager */,
-				214ACEE720690685007A41A4 /* DWNetworkAFNManagerTests */,
-				214ACEF220690685007A41A4 /* DWNetworkAFNManagerUITests */,
+				9BF22258257CE4AC000BB01B /* DWNetworkAFNManager */,
+				9BF22273257CE4AF000BB01B /* DWNetworkAFNManagerTests */,
+				9BF2227E257CE4AF000BB01B /* DWNetworkAFNManagerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		214ACECE20690684007A41A4 /* Resources */ = {
+		9BF22257257CE4AC000BB01B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214ACEE020690685007A41A4 /* LaunchScreen.storyboard in Resources */,
-				214ACEDD20690685007A41A4 /* Assets.xcassets in Resources */,
-				214ACEDB20690685007A41A4 /* Main.storyboard in Resources */,
+				9BF2226C257CE4AF000BB01B /* LaunchScreen.storyboard in Resources */,
+				9BF22269257CE4AF000BB01B /* Assets.xcassets in Resources */,
+				9BF22267257CE4AC000BB01B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		214ACEE620690685007A41A4 /* Resources */ = {
+		9BF22272257CE4AF000BB01B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		214ACEF120690685007A41A4 /* Resources */ = {
+		9BF2227D257CE4AF000BB01B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,31 +283,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5CA9EBA40EF2E298B6EB1B79 /* [CP] Embed Pods Frameworks */ = {
+		DA41C1A48BBCE06EB45F2E57 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DWNetworkAFNManager/Pods-DWNetworkAFNManager-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D369ACB29552B2DBD1B8E75C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DWNetworkAFNManager-checkManifestLockResult.txt",
 			);
@@ -326,79 +305,63 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9BF285505582C0AF74DC01F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DWNetworkAFNManager/Pods-DWNetworkAFNManager-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		214ACECC20690684007A41A4 /* Sources */ = {
+		9BF22255257CE4AC000BB01B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214ACED820690685007A41A4 /* ViewController.m in Sources */,
-				214ACF07206907BB007A41A4 /* DWNetworkAFNManager.m in Sources */,
-				214ACEE320690685007A41A4 /* main.m in Sources */,
-				214ACED520690685007A41A4 /* AppDelegate.m in Sources */,
+				9BF22264257CE4AC000BB01B /* ViewController.m in Sources */,
+				9BF2225E257CE4AC000BB01B /* AppDelegate.m in Sources */,
+				9BF2226F257CE4AF000BB01B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		214ACEE420690685007A41A4 /* Sources */ = {
+		9BF22270257CE4AF000BB01B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214ACEED20690685007A41A4 /* DWNetworkAFNManagerTests.m in Sources */,
+				9BF22279257CE4AF000BB01B /* DWNetworkAFNManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		214ACEEF20690685007A41A4 /* Sources */ = {
+		9BF2227B257CE4AF000BB01B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214ACEF820690685007A41A4 /* DWNetworkAFNManagerUITests.m in Sources */,
+				9BF22284257CE4AF000BB01B /* DWNetworkAFNManagerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		214ACEEA20690685007A41A4 /* PBXTargetDependency */ = {
+		9BF22276257CE4AF000BB01B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 214ACECF20690684007A41A4 /* DWNetworkAFNManager */;
-			targetProxy = 214ACEE920690685007A41A4 /* PBXContainerItemProxy */;
+			target = 9BF22258257CE4AC000BB01B /* DWNetworkAFNManager */;
+			targetProxy = 9BF22275257CE4AF000BB01B /* PBXContainerItemProxy */;
 		};
-		214ACEF520690685007A41A4 /* PBXTargetDependency */ = {
+		9BF22281257CE4AF000BB01B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 214ACECF20690684007A41A4 /* DWNetworkAFNManager */;
-			targetProxy = 214ACEF420690685007A41A4 /* PBXContainerItemProxy */;
+			target = 9BF22258257CE4AC000BB01B /* DWNetworkAFNManager */;
+			targetProxy = 9BF22280257CE4AF000BB01B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		214ACED920690685007A41A4 /* Main.storyboard */ = {
+		9BF22265257CE4AC000BB01B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				214ACEDA20690685007A41A4 /* Base */,
+				9BF22266257CE4AC000BB01B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		214ACEDE20690685007A41A4 /* LaunchScreen.storyboard */ = {
+		9BF2226A257CE4AF000BB01B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				214ACEDF20690685007A41A4 /* Base */,
+				9BF2226B257CE4AF000BB01B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -406,7 +369,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		214ACEFA20690685007A41A4 /* Debug */ = {
+		9BF22286257CE4AF000BB01B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,10 +379,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -427,15 +392,16 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -454,14 +420,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		214ACEFB20690685007A41A4 /* Release */ = {
+		9BF22287257CE4AF000BB01B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -471,10 +438,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -482,15 +451,16 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -503,95 +473,122 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		214ACEFD20690685007A41A4 /* Debug */ = {
+		9BF22289257CE4AF000BB01B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF470186C291900E9DF6E3A0 /* Pods-DWNetworkAFNManager.debug.xcconfig */;
+			baseConfigurationReference = A91F37058C1F4F98B228DD5C /* Pods-DWNetworkAFNManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z26Y87B8NH;
 				INFOPLIST_FILE = DWNetworkAFNManager/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wicky.DWNetworkAFNManager;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wicky.DWNetworkAFNManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		214ACEFE20690685007A41A4 /* Release */ = {
+		9BF2228A257CE4AF000BB01B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 878CF02311FAC9AE28297132 /* Pods-DWNetworkAFNManager.release.xcconfig */;
+			baseConfigurationReference = 7DE6408E7E1A30B7A2690146 /* Pods-DWNetworkAFNManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z26Y87B8NH;
 				INFOPLIST_FILE = DWNetworkAFNManager/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wicky.DWNetworkAFNManager;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wicky.DWNetworkAFNManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		214ACF0020690685007A41A4 /* Debug */ = {
+		9BF2228C257CE4AF000BB01B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z26Y87B8NH;
 				INFOPLIST_FILE = DWNetworkAFNManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wicky.DWNetworkAFNManagerTests;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wicky.DWNetworkAFNManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWNetworkAFNManager.app/DWNetworkAFNManager";
 			};
 			name = Debug;
 		};
-		214ACF0120690685007A41A4 /* Release */ = {
+		9BF2228D257CE4AF000BB01B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z26Y87B8NH;
 				INFOPLIST_FILE = DWNetworkAFNManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wicky.DWNetworkAFNManagerTests;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wicky.DWNetworkAFNManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWNetworkAFNManager.app/DWNetworkAFNManager";
 			};
 			name = Release;
 		};
-		214ACF0320690685007A41A4 /* Debug */ = {
+		9BF2228F257CE4AF000BB01B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z26Y87B8NH;
 				INFOPLIST_FILE = DWNetworkAFNManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wicky.DWNetworkAFNManagerUITests;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wicky.DWNetworkAFNManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DWNetworkAFNManager;
 			};
 			name = Debug;
 		};
-		214ACF0420690685007A41A4 /* Release */ = {
+		9BF22290257CE4AF000BB01B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z26Y87B8NH;
 				INFOPLIST_FILE = DWNetworkAFNManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wicky.DWNetworkAFNManagerUITests;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wicky.DWNetworkAFNManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DWNetworkAFNManager;
@@ -601,43 +598,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		214ACECB20690684007A41A4 /* Build configuration list for PBXProject "DWNetworkAFNManager" */ = {
+		9BF22254257CE4AC000BB01B /* Build configuration list for PBXProject "DWNetworkAFNManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				214ACEFA20690685007A41A4 /* Debug */,
-				214ACEFB20690685007A41A4 /* Release */,
+				9BF22286257CE4AF000BB01B /* Debug */,
+				9BF22287257CE4AF000BB01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		214ACEFC20690685007A41A4 /* Build configuration list for PBXNativeTarget "DWNetworkAFNManager" */ = {
+		9BF22288257CE4AF000BB01B /* Build configuration list for PBXNativeTarget "DWNetworkAFNManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				214ACEFD20690685007A41A4 /* Debug */,
-				214ACEFE20690685007A41A4 /* Release */,
+				9BF22289257CE4AF000BB01B /* Debug */,
+				9BF2228A257CE4AF000BB01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		214ACEFF20690685007A41A4 /* Build configuration list for PBXNativeTarget "DWNetworkAFNManagerTests" */ = {
+		9BF2228B257CE4AF000BB01B /* Build configuration list for PBXNativeTarget "DWNetworkAFNManagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				214ACF0020690685007A41A4 /* Debug */,
-				214ACF0120690685007A41A4 /* Release */,
+				9BF2228C257CE4AF000BB01B /* Debug */,
+				9BF2228D257CE4AF000BB01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		214ACF0220690685007A41A4 /* Build configuration list for PBXNativeTarget "DWNetworkAFNManagerUITests" */ = {
+		9BF2228E257CE4AF000BB01B /* Build configuration list for PBXNativeTarget "DWNetworkAFNManagerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				214ACF0320690685007A41A4 /* Debug */,
-				214ACF0420690685007A41A4 /* Release */,
+				9BF2228F257CE4AF000BB01B /* Debug */,
+				9BF22290257CE4AF000BB01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 214ACEC820690684007A41A4 /* Project object */;
+	rootObject = 9BF22251257CE4AC000BB01B /* Project object */;
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '97306B313EF90AF2F6548695548216ED'
-               BlueprintName = 'Pods-DWNetworkAFNManager'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-DWNetworkAFNManager.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4B8631E5F77ABC82C25BBCCD3B04FA67"
+               BuildableName = "libPods-DWNetworkAFNManager.a"
+               BlueprintName = "Pods-DWNetworkAFNManager"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -2,8 +2,7 @@
 //  ViewController.h
 //  DWNetworkAFNManager
 //
-//  Created by Wicky on 2018/3/26.
-//  Copyright © 2018年 Wicky. All rights reserved.
+//  Created by Wicky on 2020/12/6.
 //
 
 #import <UIKit/UIKit.h>
